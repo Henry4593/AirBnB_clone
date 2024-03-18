@@ -1,1 +1,1 @@
-0x01. AirBnB clone - Web static
+This is a documentation for directory web_static

@@ -1,16 +1,19 @@
 header {
-    background-color: white;
     height: 70px;
     width: 100%;
+    background-color: white;
     border-bottom: 1px solid #CCCCCC;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
-header .logo {
-    width: 142px;
-    height: 60px;
-    background: url("../images/logo.png") no-repeat center;
-    padding-left: 20px;
-    
+.company-logo {
+    background: url("../images/logo.png") no-repeat;
+    width: 150px;
+    height: 65px;
+    margin-left: 20px;
+}
+.company-logo:hover{
+    cursor: pointer;
 }
